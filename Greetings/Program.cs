@@ -31,7 +31,6 @@ namespace Greetings
 			{
 				mardiq[i].Name = names[rnd.Next(0, names.Length)];
 				mardiq[i].Age = rnd.Next(20, 40);
-
 			}
 
 			for (int i = 0; i < mardiq.Count; i++)
@@ -41,12 +40,8 @@ namespace Greetings
 					Console.WriteLine(mardiq[i].Barevel(mardiq[j]));
 					Console.WriteLine(mardiq[j].Barevel(mardiq[i]));
 					Console.WriteLine("-----------");
-
 				}
-
 			}
-
-			//
 			Console.ReadLine();
 		}
 	}

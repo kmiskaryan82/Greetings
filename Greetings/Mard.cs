@@ -16,8 +16,5 @@ namespace Greetings
 		{
 			return "Barev " + name;
 		}
-
-
-
 	}
 }
